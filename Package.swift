@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "DicioLiveness",
+    platforms: [
+        .iOS(.v16)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -26,6 +29,9 @@ let package = Package(
             dependencies: [
                 "DicioLivenessUI",
                 "FaceTecSDK"
+            ],
+            resources: [
+                .process("Resources")
             ]
         ),
         .testTarget(
@@ -33,5 +39,5 @@ let package = Package(
             dependencies: ["DicioLiveness"]
         ),
     ],
-    swiftLanguageModes: [.v6]
+    swiftLanguageVersions: [.v5]
 )
