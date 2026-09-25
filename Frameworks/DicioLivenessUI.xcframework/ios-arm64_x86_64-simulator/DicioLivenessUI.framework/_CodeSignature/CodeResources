@@ -6,11 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		eQiDbHEVvsmbVI1Fk3XTiqLA0Ac=
+		wmyZQsl9u+8ZAmjs4G1F9U50r68=
+		</data>
+		<key>FaceTec.strings</key>
+		<data>
+		PEdaZe85/GTlf1TD4smyMztAWt4=
 		</data>
 		<key>FaceTecContainerViewController.nib</key>
 		<data>
-		FJFYsdo8UOA8KcjUW0RjZ0i7lx8=
+		yrpoWvN47ewt+k3lH9EoCHNMcb0=
 		</data>
 		<key>Headers/DicioLivenessUI.h</key>
 		<data>
@@ -18,55 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bYyjxEqm8NuqnzKXRvh1EYSPDns=
-		</data>
-		<key>Modules/DicioLivenessUI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		SXlM8SkCWToff2+wHa9r4xRpSCI=
-		</data>
-		<key>Modules/DicioLivenessUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		dxUyM7WMIMhlSA7W3MqqFd5wAYM=
+		RtqlD5sXT0OqY39stgrXigl0nxc=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3Yjbf5eNFv6y+2+PIYSe4rtBiHg=
+		XJoD1ArgHZ4kyZ+4DS59i2XdHms=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rj7cxU+oP2Q4hyBFV1uTAimn90Q=
+		ssk6YVgW648X4zCzhSzzvf3W+iQ=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JaUXGp6bQJI4cJQhPFJGIZh+/Ic=
+		sJEWv0nKzARgN7uKlGmxCESBQ5o=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rj7cxU+oP2Q4hyBFV1uTAimn90Q=
+		ssk6YVgW648X4zCzhSzzvf3W+iQ=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7ozR8undDLIrJLzWZKbaP+/VfR4=
+		HPAVzhYP+qmMHhj2UXMwohIyjj4=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3Yjbf5eNFv6y+2+PIYSe4rtBiHg=
+		XJoD1ArgHZ4kyZ+4DS59i2XdHms=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9s87l9GUHIbiV2JtURvlPbFqoAA=
+		EPfOToUtheQRmk8SDdooA5Mku9Y=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SGcjnJnsjux+tKBGy6hs91mOxvk=
+		ah7BnI1j4Kwe0Kkv2GrhXfHh8x0=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9s87l9GUHIbiV2JtURvlPbFqoAA=
+		EPfOToUtheQRmk8SDdooA5Mku9Y=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5XusmC4Z7BPBfbwxud/txYhWNX4=
+		QzsLMLQzFn34/Ge17JF+W/rA1Yk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,14 +103,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hKk7Sf1kg9CX0ql5r0b7cag4RrUPkuAt3RfmCo0280=
+			MCkWHBnIPW3Xk6P/7iAxvMfFNRdCrjpEyDdj8nEUBfk=
+			</data>
+		</dict>
+		<key>FaceTec.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			95mGQ6op5BzqS8B0RDZabXT6IWtkML5JOhCUdz4LFrs=
 			</data>
 		</dict>
 		<key>FaceTecContainerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2qe/vdwy1ZmcO4JTOS48c5QJDQ4JGETqjykjncqWPY8=
+			ICo40H025wlSYXYLdMGw3XeBXKv3Dpa6e6mbXXmY14Q=
 			</data>
 		</dict>
 		<key>Headers/DicioLivenessUI.h</key>
@@ -124,88 +127,74 @@
 			M27oL8X4SPnFKZEhR/HPbxYg6tSd2+T/ujGM3r5FFB0=
 			</data>
 		</dict>
-		<key>Modules/DicioLivenessUI.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YZAK6ulBvZJ8nExZQEgQV0BqBlTCmIlrUR8Jcj4bZ+0=
-			</data>
-		</dict>
-		<key>Modules/DicioLivenessUI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OBhLt+FeZbx8R/btcqXTQg3gJK+rd3OxvnbfU8qtQxc=
-			</data>
-		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gCpo0q/BjQq8OsLtlNa/7+PFw4eahHuAIHWuAv5Je0o=
+			hkGnsb831M7k9A//pY8eMD7GveEkFvsxgUK9M84jmRU=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjQxi567ojNeAg/PfNIe9BIzaQ+YWBFPexNfDLcnkNg=
+			s0udW4eVCs/d3rpmDjEJj8K1JWV+oVk7VLXhk92F3Lc=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0x+LwJiy2dw0FaPZyx+O2cv0D1JTEdLcLV+I9v+Hd3k=
+			bKDbFiJi9/12oo3KHSS4QTbzNYClJ6soL841Cme85Zk=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjQxi567ojNeAg/PfNIe9BIzaQ+YWBFPexNfDLcnkNg=
+			s0udW4eVCs/d3rpmDjEJj8K1JWV+oVk7VLXhk92F3Lc=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JiC83kdnYTN6vFxRxemyltxBr6wV3N5kY20KKqcm8+g=
+			Tg/cQ+1koUlTUTLjYpTN9/ayPMFBO6Ef88aPPPupS7I=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gCpo0q/BjQq8OsLtlNa/7+PFw4eahHuAIHWuAv5Je0o=
+			hkGnsb831M7k9A//pY8eMD7GveEkFvsxgUK9M84jmRU=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQOhKxC8h2ICoHIMyfQ0w3Q/V2iBc5CuY5lb9/cK/yg=
+			DMp0tKNSoNxpmw4AtvSjMF97YROzChHFmstUkNo52c0=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ufQ91o3ARSSvQynowOfpk+rv5zjMw8jpMfzzvT2WaUQ=
+			opA1TJUskzpvbn+a2o2Y1io7o8fFsu3y1/dAvVlB3yI=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQOhKxC8h2ICoHIMyfQ0w3Q/V2iBc5CuY5lb9/cK/yg=
+			DMp0tKNSoNxpmw4AtvSjMF97YROzChHFmstUkNo52c0=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TsFDow9GAgVo5xBSyCleJDMOWAN9h/XviJLhuE1Qm5c=
+			d5RaFAhCpxwiCYjE9sFIJguQKRykAEZfIPBNCtf0sSo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
