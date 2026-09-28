@@ -68,20 +68,20 @@ let package = Package(
         // 1. Tu framework SDK principal
         .binaryTarget(
             name: "DicioLivenessUI-Prod",
-            path: "Frameworks/DicioLivenessUI-Prod.xcframework"
+            path: "Frameworks/Prod/DicioLivenessUI-Prod.xcframework"
         ),
         
         // 2. Dependencia de FaceTec pre-compilada
         .binaryTarget(
             name: "FaceTecSDK",
-            path: "Frameworks/FaceTecSDK.xcframework"
+            path: "Frameworks/Prod/FaceTecSDK.xcframework"
         ),
         
         // 3. Target envoltorio que junta tu SDK, FaceTec y los Recursos
         .target(
             name: "DicioLiveness",
             dependencies: [
-                "DicioLivenessUI",
+                "DicioLivenessUI-Prod",
                 "FaceTecSDK"
             ],
             resources: [
