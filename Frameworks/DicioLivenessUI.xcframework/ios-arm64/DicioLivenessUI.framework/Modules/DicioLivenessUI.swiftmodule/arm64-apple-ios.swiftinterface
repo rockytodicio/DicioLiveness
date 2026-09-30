@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
-// swift-module-flags: -target arm64-apple-ios16 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DicioLivenessUI
+// swift-module-flags: -target arm64-apple-ios18.6 -enable-objc-interop -enable-library-evolution -language-mode 5 -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DicioLivenessUI
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import AVFoundation
 import Combine

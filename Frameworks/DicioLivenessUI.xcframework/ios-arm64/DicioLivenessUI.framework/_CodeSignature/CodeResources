@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		wmyZQsl9u+8ZAmjs4G1F9U50r68=
+		Iy6Ea/9jnQT1ovEFp7CH/Ck1hiM=
 		</data>
 		<key>FaceTec.strings</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6cv0nClMuPxuEtmQtflPeIaOCI0=
+		/r1rbCSgFm642h8Nc+ht+j1DAd0=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		C71ab0MzhMKu6jyub9sJPbv4ewk=
+		SWPZtcXfqvMUhwVFzsNU7PqwtEs=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		KEk3z5ZrBUU3mrBzX2tRXEavGDI=
+		ZXX/tEj7YMUmK2mBeOVyvJFLsOs=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		D5pCzYSfxgEGaZWTqRbnUmIu5OQ=
+		QhxESZDKRbvMjHUZ6PTU832BQvA=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		KEk3z5ZrBUU3mrBzX2tRXEavGDI=
+		ZXX/tEj7YMUmK2mBeOVyvJFLsOs=
 		</data>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		N0AmHz/lbSw3hBoZZK1IM3ba88s=
+		MO7U5v9PiA5hEyuPuK85GeuNdcE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MCkWHBnIPW3Xk6P/7iAxvMfFNRdCrjpEyDdj8nEUBfk=
+			xPKoFh4iTO5XsCPcfGrFeEe5QzK4BgDb5XQTR4IACK4=
 			</data>
 		</dict>
 		<key>FaceTec.strings</key>
@@ -111,35 +111,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y+OGz9EPjAHeR7Fw8EKTDdZjPgHikSSpBUTa46TXqLM=
+			w0GKQWCNh+inR16rGuEWhjUyvE0Az149Z2hdgvuoXDI=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hOrFd63cDTrtRT1pzRAy0tPYQ1HutHsjCVdJ+TV1msk=
+			9gpgG2ijWm0SoVKkB+Z048CZWdKpWrlqnx3Hpnbylxw=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lIdvF4R9OZKscryTf3DzLnGrjxmWLjwR1zXEedVDqC8=
+			6EEX2BOzigArGMsxdQ0UczrPYF2aU2XDx6DOBdXZ6gw=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hOrFd63cDTrtRT1pzRAy0tPYQ1HutHsjCVdJ+TV1msk=
+			9gpgG2ijWm0SoVKkB+Z048CZWdKpWrlqnx3Hpnbylxw=
 			</data>
 		</dict>
 		<key>Modules/DicioLivenessUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TiQftRdsXde5Z9sR/dceQ1Sjppw0KQ449pqRR7yg7zs=
+			KXysglfehhHa/9oeg7N6BTvN6NrdBpPrIe8QWU2h704=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

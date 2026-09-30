@@ -2,11 +2,26 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
+/*
+ var pathFTEnv = ""
+ var pathLVEnv = ""
+
+ #if DEBUG
+ pathFTEnv = "Frameworks/FaceTecSDKForDevelopment.xcframework"
+ pathLVEnv = "Frameworks/DicioLivenessUI.xcframework"
+
+ #else
+ //RELEASE
+ pathFTEnv = "Frameworks/FaceTecSDK.xcframework"
+ pathLVEnv = "Frameworks/DicioLivenessUIProd.xcframework"
+ #endif
+ */
+
 
 let package = Package(
     name: "DicioLiveness",
     platforms: [
-        .iOS(.v16) // Ajusta si requieres una versión mínima distinta
+        .iOS(.v16)
     ],
     products: [
         .library(
@@ -15,22 +30,22 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Nada aquí. Inyectamos FaceTecSDK localmente como binaryTarget para evitar colisiones.
+
     ],
     targets: [
-        // 1. Tu framework SDK principal
+
         .binaryTarget(
             name: "DicioLivenessUI",
-            path: "Frameworks/DicioLivenessUI.xcframework"
+            path: "Frameworks/DicioLivenessUIProd.xcframework"
         ),
         
-        // 2. Dependencia de FaceTec pre-compilada
+
         .binaryTarget(
             name: "FaceTecSDK",
             path: "Frameworks/FaceTecSDK.xcframework"
         ),
         
-        // 3. Target envoltorio que junta tu SDK, FaceTec y los Recursos
+
         .target(
             name: "DicioLiveness",
             dependencies: [
@@ -48,3 +63,4 @@ let package = Package(
     ],
     swiftLanguageVersions: [.v5]
 )
+
