@@ -2,21 +2,6 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-/*
- var pathFTEnv = ""
- var pathLVEnv = ""
-
- #if DEBUG
- pathFTEnv = "Frameworks/FaceTecSDKForDevelopment.xcframework"
- pathLVEnv = "Frameworks/DicioLivenessUI.xcframework"
-
- #else
- //RELEASE
- pathFTEnv = "Frameworks/FaceTecSDK.xcframework"
- pathLVEnv = "Frameworks/DicioLivenessUIProd.xcframework"
- #endif
- */
-
 
 let package = Package(
     name: "DicioLiveness",
