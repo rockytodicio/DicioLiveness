@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target x86_64-apple-ios18.6-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DicioLivenessUI
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import AVFoundation
+import Combine
+import DeveloperToolsSupport
+@_exported import DicioLivenessUI
+import FaceTecSDK
+import Foundation
+import Network
+import Photos
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+
+extension UIKit::UIDevice {
+  @_Concurrency::MainActor @preconcurrency public static let modelName: Swift::String
+}
+@objc @_inheritsConvenienceInitializers public class AppConfig : ObjectiveC::NSObject {
+  public static let shared: DicioLivenessUI::AppConfig
+  public var intentosCaptura: Swift::Int
+  public var accentColor: UIKit::UIColor
+  public var imageReturnFTB64: Swift::String!
+  public var expirationDate: Swift::String
+  public var intentosMaximos: Swift::Int
+  public var intentosRealizados: Swift::Int
+  public var activarAudio: Swift::Bool
+  public var DeviceKI: Swift::String
+  public var baseUrl: Swift::String
+  public var publicKey: Swift::String
+  public var prodKey: Swift::String
+  public var livessUILogo: Swift::String
+  public var outerBackgroundColor: Swift::String
+  public var frameColor: Swift::String
+  public var borderColor: Swift::String
+  public var ovalColor: Swift::String
+  public var dualSpinnerColor: Swift::String
+  public var textColor: Swift::String
+  public var buttonAndFeedbackBarColor: Swift::String
+  public var buttonAndFeedbackBarTextColor: Swift::String
+  public var buttonColorHighlight: Swift::String
+  public var buttonColorDisabled: Swift::String
+  public var appID: Swift::String
+  public var laUrlVerifica: Swift::String
+  public var bearerToken: Swift::String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_Concurrency::MainActor @preconcurrency public struct LivenessLaunchView : SwiftUICore::View {
+  @_Concurrency::MainActor @preconcurrency public init(config: DicioLivenessUI::LivenessUIConfig, urlVerify: Swift::String, token: Swift::String, showCancelButton: Swift::Bool, maxAttempts: Swift::Int, soundEnable: Swift::Bool, delegate: (any DicioLivenessUI::CaptureFaceResultsDelegate)? = nil)
+  @_Concurrency::MainActor @preconcurrency public var body: some SwiftUICore::View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15DicioLivenessUI0B10LaunchViewV4bodyQrvp", 0) __
+}
+public protocol CaptureFaceResultsDelegate {
+  func finishedLiveness(isSuccessfull: Swift::Bool, JSONResults: Swift::String, picBase64: Swift::String)
+}
+public struct LivenessUIConfig {
+  public var outerColorFondo: Swift::String
+  public var colorFrame: Swift::String
+  public var colorBorde: Swift::String
+  public var colorOvalo: Swift::String
+  public var colorSpinnerDual: Swift::String
+  public var colorTexto: Swift::String
+  public var colorBtnYFeedbackBar: Swift::String
+  public var colorBtnAndFeedbackBarText: Swift::String
+  public var colorBtnHighlight: Swift::String
+  public var colorBtnDisabled: Swift::String
+  public var livenessLogo: Swift::String
+  public init(outerColorFondo: Swift::String, colorFrame: Swift::String, colorBorde: Swift::String, colorOvalo: Swift::String, colorSpinnerDual: Swift::String, colorTexto: Swift::String, colorBtnYFeedbackBar: Swift::String, colorBtnAndFeedbackBarText: Swift::String, colorBtnHighlight: Swift::String, colorBtnDisabled: Swift::String, livenessLogo: Swift::String)
+}
+public struct DicioLVConfigurator {
+  public static var moduleBundle: Foundation::Bundle?
+}
+extension DicioLivenessUI::LivenessLaunchView : Swift::Sendable {}
