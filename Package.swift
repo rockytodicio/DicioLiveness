@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "DicioLiveness",
     platforms: [
-        .iOS(.v16) // Ajusta si requieres una versión mínima distinta
+        .iOS(.v16)
     ],
     products: [
         .library(
@@ -15,22 +15,22 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Nada aquí. Inyectamos FaceTecSDK localmente como binaryTarget para evitar colisiones.
+
     ],
     targets: [
-        // 1. Tu framework SDK principal
+
         .binaryTarget(
             name: "DicioLivenessUI",
             path: "Frameworks/DicioLivenessUI.xcframework"
         ),
         
-        // 2. Dependencia de FaceTec pre-compilada
+
         .binaryTarget(
             name: "FaceTecSDK",
-            path: "Frameworks/FaceTecSDK.xcframework"
+            path: "Frameworks/FaceTecSDKForDevelopment.xcframework"
         ),
         
-        // 3. Target envoltorio que junta tu SDK, FaceTec y los Recursos
+        
         .target(
             name: "DicioLiveness",
             dependencies: [
