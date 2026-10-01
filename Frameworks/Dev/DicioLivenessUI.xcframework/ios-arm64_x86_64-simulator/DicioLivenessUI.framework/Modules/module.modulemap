@@ -1,0 +1,6 @@
+framework module DicioLivenessUI {
+  umbrella header "DicioLivenessUI.h"
+  export *
+
+  module * { export * }
+}
