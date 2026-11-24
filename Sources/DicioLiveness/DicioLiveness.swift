@@ -2,7 +2,6 @@
 // https://docs.swift.org/swift-book
 import FaceTecSDK
 import DicioLivenessUI
-#if DEBUG
 
 
 
@@ -10,29 +9,21 @@ import DicioLivenessUI
 
 public struct DicioLiveness {
     
-    public static func initializeSDK() {
-        print("🚀 [DicioLV] initializeSDK()")
-        print("Ejecutando en modo Desarrollo (Debug)")
-        DicioLVConfigurator.moduleBundle = BundleHelper.resourcesBundle
-        
+    public struct DicioLiveness {
+        public static func initializeSDK() {
+            print("🚀 [DicioLV] initializeSDK()")
+            let bundle = BundleHelper.resourcesBundle
+            DicioLVConfigurator.moduleBundle = bundle
+            FaceTec.sdk.setLanguage("es")
+            FaceTec.sdk.configureLocalization(withTable: "FaceTec", bundle: bundle)
+            if let stringsPath = bundle.path(forResource: "FaceTec", ofType: "strings"),
+               let stringsDict = NSDictionary(contentsOfFile: stringsPath) as? [String: String] {
+                FaceTec.sdk.setDynamicStrings(stringsDict)
+            }
+        }
     }
 }
 
-#else
-
-
-
-
-public struct DicioLiveness {
-    public static func initializeSDK() {
-        print("Ejecutando en modo Producción (Release)")
-        print("🚀 [DicioLV] initializeSDK()")
-        DicioLVConfigurator.moduleBundle = BundleHelper.resourcesBundle
-        
-    }
-}
-
-#endif
 
 
 

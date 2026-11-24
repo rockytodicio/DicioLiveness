@@ -109,7 +109,7 @@
 "FaceTec_result_success_message" = "Listo";
 "FaceTec_result_facescan_upload_message" = "Subiendo\nel escaneo facial 3D\ncifrado";
 "FaceTec_result_idscan_upload_message" = "Subiendo\nel escaneo de identificación\ncifrado";
-"FaceTec_result_idscan_unsuccess_message" = "La foto de la identificación\no coincide con\el rostro del usuario";
+"FaceTec_result_idscan_unsuccess_message" = "La foto de la identificación\nno coincide con\nel rostro del usuario";
 "FaceTec_result_idscan_success_front_side_message" = "Escaneo de identificación completado";
 "FaceTec_result_idscan_success_front_side_back_next_message" = "Anverso de la identificación\nescaneado";
 "FaceTec_result_idscan_success_back_side_message" = "Escaneo de identificación completado";
