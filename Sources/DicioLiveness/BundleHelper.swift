@@ -12,7 +12,7 @@ public struct BundleHelper {
         print("🕵️‍♂️ [DicioLV] 1. Iniciando auditoría profunda de recursos en disco...")
         
 
-        let targetFiles = ["acercate.mp3", "iniciando.mp3", "intenta_de_nuevo.mp3", "muchas_gracias.mp3", "retira_lentes_gorra_cubrebocas.mp3", "tomate_una_foto.mp3", "un_momento_porfavor.mp3", "Assets.car", "FaceTecContainerViewController.xib"]
+        let targetFiles = ["FaceTec.strings", "acercate.mp3", "iniciando.mp3", "intenta_de_nuevo.mp3", "muchas_gracias.mp3", "retira_lentes_gorra_cubrebocas.mp3", "tomate_una_foto.mp3", "un_momento_porfavor.mp3", "Assets.car", "FaceTecContainerViewController.xib"]
         let allBundles = Bundle.allBundles + Bundle.allFrameworks
         let fm = FileManager.default
         
